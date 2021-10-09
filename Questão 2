@@ -1,0 +1,22 @@
+fn main() {
+
+let  (a,b) :(bool,bool);    //entrada
+let   x :bool;              //buffer
+let _out :bool;             //saida
+
+a=false;                    //simula a entrada de dados
+b=false;
+
+if a & b==false
+{
+    x=false;
+}
+else
+{
+    x=true;
+}
+
+_out= !x;
+
+println!("{}",_out);        //simula a saida de dados
+}
