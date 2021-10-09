@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+	int a=1, b=0, x;
+	printf("A	B	X\n\n");
+	printf("%d	%d	%d\n", !a, b, x= !(!a&&b) );
+	printf("%d	%d	%d\n", !a, !b, x=!(!a&&!b) );
+	printf("%d	%d	%d\n", a, b, x= !(a&&b)  );
+	printf("%d	%d	%d\n", a, !b, x= ! (a&&!b) );
+}
